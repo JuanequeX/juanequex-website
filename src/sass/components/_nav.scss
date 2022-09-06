@@ -3,6 +3,10 @@
   width: 100vw;
   z-index: 100;
 
+  @include desktop {
+    position: fixed;
+  }
+  
   &__container {
     align-items: center;
     display: flex;

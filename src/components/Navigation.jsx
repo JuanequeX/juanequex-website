@@ -18,7 +18,7 @@ const Navigation = ({ isOpen }) => {
           />
 
           <HeaderItem
-            goTo="home"
+            goTo="hero"
             text="Home"
             itemClass="menu-container__link"
           />

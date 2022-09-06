@@ -1,7 +1,9 @@
 @import
   './utils/colors',
   './abstracts/mixins',
-  './layouts/App',
-  './components/home',
+  './layouts/App';
+
+  @import
+  './components/hero',
   './components/nav',
   './components/sidebar';
