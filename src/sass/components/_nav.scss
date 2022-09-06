@@ -1,0 +1,87 @@
+.navbar {
+  background-color: $dark-grey;
+  width: 100vw;
+  z-index: 100;
+
+  &__container {
+    align-items: center;
+    display: flex;
+    height: 5rem;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 85%;
+  }
+}
+
+.logo-text-desktop {
+  color: $white;
+  display: none;
+  font-family: 'Akaya Telivigala', cursive;
+  font-size: $fontxxxl;
+  transition: all 0.2s ease;
+
+  @include tablet {
+    display: block;
+  }
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.logo-text-small {
+  color: $white;
+  font-family: 'Akaya Telivigala', cursive;
+  font-size: $fontxxl;
+  transition: all 0.2s ease;
+
+  @include tablet {
+    display: none;
+  }
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.menu-container {
+  @include desktop {
+    display: flex;
+    flex-direction: row;
+  }
+
+  &__hamburguer-icon {
+    cursor: pointer;
+    width: 2rem;
+
+    @include desktop {
+      display: none;
+    }
+  }
+
+  &__link {
+    cursor: pointer;
+    display: none;
+
+    @include desktop {
+      color: $white;
+      display: block;
+      font-style: normal;
+      margin: 0 1rem;
+      text-decoration: none;
+
+      &::after {
+        content: ' ';
+        background-color: $white;
+        display: block;
+        height: 2px;
+        transition: width 0.3s ease;
+        width: 0%;
+      }
+
+      &:hover::after {
+        width: 100%;
+      }
+    }
+  }
+}
