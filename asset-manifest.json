@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.dc61bf89.css",
-    "main.js": "/static/js/main.feeeeae9.js",
+    "main.css": "/static/css/main.81528e69.css",
+    "main.js": "/static/js/main.daddda2e.js",
     "static/js/787.40a9064b.chunk.js": "/static/js/787.40a9064b.chunk.js",
     "static/media/perfil.jpg": "/static/media/perfil.3cb28c84a1609eca1bff.jpg",
     "static/media/playas.png": "/static/media/playas.c111ebf7e1aa05b7be98.png",
@@ -14,19 +14,25 @@
     "static/media/magma.png": "/static/media/magma.946f2b6db4cebf7ba49b.png",
     "static/media/brightcoder.png": "/static/media/brightcoder.3273e621fae985d9f83c.png",
     "static/media/akaya-telivigala-latin-400-normal.woff2": "/static/media/akaya-telivigala-latin-400-normal.6adfb2bb1dd65aa73a6c.woff2",
+    "static/media/github.png": "/static/media/github.5e081e32a3893227585c.png",
+    "static/media/calendly.png": "/static/media/calendly.b22e3eb86f91cefa5b37.png",
     "static/media/sora-all-400-normal.woff": "/static/media/sora-all-400-normal.4e0eb869ce00863294f7.woff",
+    "static/media/twitter.png": "/static/media/twitter.8e9f0765886432f2f259.png",
     "static/media/akaya-telivigala-latin-ext-400-normal.woff2": "/static/media/akaya-telivigala-latin-ext-400-normal.806924fe3d6edb5e4e59.woff2",
+    "static/media/instagram.png": "/static/media/instagram.d99bc3a22bab940394f0.png",
     "static/media/road-rage-vietnamese-400-normal.woff2": "/static/media/road-rage-vietnamese-400-normal.945f369b6e0eb1363daf.woff2",
     "static/media/sora-latin-400-normal.woff2": "/static/media/sora-latin-400-normal.a12f18b2fa36ee4a1216.woff2",
+    "static/media/linkedin.png": "/static/media/linkedin.9d535504e51ba4cea735.png",
     "static/media/sora-latin-ext-400-normal.woff2": "/static/media/sora-latin-ext-400-normal.256bd69d954f04ef5548.woff2",
     "static/media/hamburguer-menu.svg": "/static/media/hamburguer-menu.aaeb4a139a0d5648e99bcb28affab1f9.svg",
     "index.html": "/index.html",
-    "main.dc61bf89.css.map": "/static/css/main.dc61bf89.css.map",
-    "main.feeeeae9.js.map": "/static/js/main.feeeeae9.js.map",
+    "static/media/arrow.svg": "/static/media/arrow.ab36596709055d2e9cd3ea8709c59175.svg",
+    "main.81528e69.css.map": "/static/css/main.81528e69.css.map",
+    "main.daddda2e.js.map": "/static/js/main.daddda2e.js.map",
     "787.40a9064b.chunk.js.map": "/static/js/787.40a9064b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc61bf89.css",
-    "static/js/main.feeeeae9.js"
+    "static/css/main.81528e69.css",
+    "static/js/main.daddda2e.js"
   ]
 }
