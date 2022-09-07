@@ -19,29 +19,10 @@
 
 .logo-text-desktop {
   color: $white;
-  display: none;
+  cursor: pointer;
   font-family: "Road Rage", cursive;
   font-size: 3rem;
   transition: all 0.2s ease;
-
-  @include tablet {
-    display: block;
-  }
-
-  &:hover {
-    transform: scale(1.1);
-  }
-}
-
-.logo-text-small {
-  color: $white;
-  font-family: "Road Rage", cursive;
-  font-size: 2.5rem;
-  transition: all 0.2s ease;
-
-  @include tablet {
-    display: none;
-  }
 
   &:hover {
     transform: scale(1.1);
