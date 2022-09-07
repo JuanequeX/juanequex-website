@@ -1,11 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.2283417e.css",
-    "main.js": "/static/js/main.42e2f217.js",
+    "main.css": "/static/css/main.687feadc.css",
+    "main.js": "/static/js/main.91593c6e.js",
     "static/js/787.40a9064b.chunk.js": "/static/js/787.40a9064b.chunk.js",
     "static/media/perfil.jpg": "/static/media/perfil.3cb28c84a1609eca1bff.jpg",
+    "static/media/playas.png": "/static/media/playas.c111ebf7e1aa05b7be98.png",
     "static/media/akaya-telivigala-all-400-normal.woff": "/static/media/akaya-telivigala-all-400-normal.78fd8cb2a221beeb77ce.woff",
+    "static/media/sumus.png": "/static/media/sumus.a1c6e4795c47ad51db94.png",
     "static/media/akaya-telivigala-telugu-400-normal.woff2": "/static/media/akaya-telivigala-telugu-400-normal.cc24af700d82d6ced8f6.woff2",
+    "static/media/magma.png": "/static/media/magma.946f2b6db4cebf7ba49b.png",
+    "static/media/brightcoder.png": "/static/media/brightcoder.3273e621fae985d9f83c.png",
     "static/media/akaya-telivigala-latin-400-normal.woff2": "/static/media/akaya-telivigala-latin-400-normal.6adfb2bb1dd65aa73a6c.woff2",
     "static/media/sora-all-400-normal.woff": "/static/media/sora-all-400-normal.4e0eb869ce00863294f7.woff",
     "static/media/akaya-telivigala-latin-ext-400-normal.woff2": "/static/media/akaya-telivigala-latin-ext-400-normal.806924fe3d6edb5e4e59.woff2",
@@ -13,12 +17,12 @@
     "static/media/sora-latin-ext-400-normal.woff2": "/static/media/sora-latin-ext-400-normal.256bd69d954f04ef5548.woff2",
     "static/media/hamburguer-menu.svg": "/static/media/hamburguer-menu.aaeb4a139a0d5648e99bcb28affab1f9.svg",
     "index.html": "/index.html",
-    "main.2283417e.css.map": "/static/css/main.2283417e.css.map",
-    "main.42e2f217.js.map": "/static/js/main.42e2f217.js.map",
+    "main.687feadc.css.map": "/static/css/main.687feadc.css.map",
+    "main.91593c6e.js.map": "/static/js/main.91593c6e.js.map",
     "787.40a9064b.chunk.js.map": "/static/js/787.40a9064b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2283417e.css",
-    "static/js/main.42e2f217.js"
+    "static/css/main.687feadc.css",
+    "static/js/main.91593c6e.js"
   ]
 }
