@@ -5,6 +5,8 @@ import Sidebar from './components/helpers/Sidebar'
 import Hero from './components/Hero'
 import About from './components/AboutUs'
 import Roadmap from './components/Roadmap'
+import Contact from './components/Contact'
+import Footer  from './components/Footer'
 import "@fontsource/akaya-telivigala"
 import "@fontsource/road-rage"
 import "@fontsource/sora"
@@ -22,6 +24,8 @@ function App() {
       <Hero />
       <About />
       <Roadmap />
+      <Contact />
+      <Footer />
     </>
   )
 }

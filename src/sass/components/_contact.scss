@@ -1,0 +1,108 @@
+.contact {
+  background-color: $dark-grey;
+  min-height: 75vh;
+  position: relative;
+  width: 100vw;
+
+  &__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  &__title {
+    border-bottom: 2px solid $white;
+    color: $white;
+    font-size: 1.5rem;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    padding-top: 2rem;
+    text-transform: capitalize;
+    width: fit-content;
+
+    @include tablet {
+      padding-top: 4rem !important;
+    }
+  }
+
+  &__information {
+    color: $white;
+    text-align: center;
+
+    @include tablet {
+      font-size: 1.3rem;
+    }
+  }
+
+  &__icon {
+    width: 5rem;
+  }
+
+  &__arrow {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+
+    @include tablet {
+      top: 35%;
+      left: 48%;
+    }
+
+    @include desktop {
+      top: 35%;
+      left: 49%;
+    }
+
+    @include desktopArrow {
+      top: 32%;
+    }
+
+
+    img {
+      animation: mover 1s infinite  alternate;
+      height: 100%;
+      width: 65%;
+
+      @include tablet {
+        width: 85%;
+      }
+    }
+
+    @keyframes mover {
+      0% { transform: translateY(0); }
+      100% { transform: translateY(-10px); }
+    }
+  }
+
+  &__social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__icons {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      width: 70%;
+
+      @include tablet {
+        flex-direction: row;
+        flex-wrap: nowrap;
+      }
+    }
+
+    &__icon {
+      width: 6rem;
+      margin: 0 1rem;
+
+      @include desktop {
+        transition: all 0.4s ease 0s;
+
+        &:hover{
+          transform: translateY(-.8rem) scale(1);
+        }
+      }
+    }
+  }
+}

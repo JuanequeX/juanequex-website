@@ -131,7 +131,7 @@ const ItemContainer = styled.div`
 
 const Box = styled.p`
   background-color: #181C25;
-  box-shadow: 5px 5px 40px 11px rgba(87,71,71,0.78);
+  box-shadow: 0px 0px 14px 6px rgba(24,28,37,0.42);
   color: #181C25;
   height: fit-content;
   padding: 1rem;
@@ -167,7 +167,7 @@ const Text = styled.span`
     margin: .5rem 0;
     display: block;
   }
-  
+
   @media (max-width: 40em) {
     display: none;
   }
@@ -217,8 +217,7 @@ useLayoutEffect(() => {
           trigger: el,
           start: 'top center+=200px',
           end:'bottom center',
-          scrub: true,
-          // markers: true,
+          scrub: true
         }
       }
     )
@@ -238,11 +237,11 @@ useLayoutEffect(() => {
         </SvgContainer>
         <Items>
           <Item>&nbsp;</Item>
-          <RoadMapItem addToRef={addToRefs} title="Bachillerato Técnico 8" period="2014 Aug - 2017 Jun" subText="I graduated as a programmer analyst technician at the high school of the University of Colima." />
-          <RoadMapItem addToRef={addToRefs} title="Software Engineer" period="2018 Aug - 2022 Aug" subText="I am graduated as a software engineer studying a period of 8 semesters in the Faculty of Telematics of the Universidad de Colima" />
-          <RoadMapItem addToRef={addToRefs} title="RoR Bright Coder" period="2021 Aug - Dec 2021" subText="An intensive mentoring program designed to train talented software developers who adopt best programming practices, working with agile methodologies. having remote team work experience." />
-          <RoadMapItem addToRef={addToRefs} title="Ruby on Rails Mentor" period="2022 Feb - current" subText="has been distinguished as an exceptional guide to share the work and support in the development of BrightCoders participants." />
-          <RoadMapItem addToRef={addToRefs} title="Software Enginner on MagmaLabs" period="Feb 2022 - current" subText="Currently I develop on technologies such as Ruby on rails and react in very diverse projects within the MagmaLabs client portfolio and in its internal projects." />
+          <RoadMapItem addToRef={addToRefs} title="Bachillerato Técnico 8" period="Aug 2014 - Jun 2017" subText="I graduated as a programmer analyst technician at the high school of the University of Colima." />
+          <RoadMapItem addToRef={addToRefs} title="Software Engineering Degree" period="Aug 2018 - Aug 2022" subText="I graduated as a software engineer studying a period of 8 semesters in the Faculty of Telematics of the Universidad de Colima" />
+          <RoadMapItem addToRef={addToRefs} title="RoR BrightCoder" period="Aug 2021 - Dec 2021" subText="I been realized the ruby on rails bootcamp by learn by doing program designed to training through best programming practices and working with agile methodologies in real scenarios." />
+          <RoadMapItem addToRef={addToRefs} title="Ruby on Rails Mentor at BrightCoders" period="Feb 2022 - current" subText="i've been distinguished as mentor with the responsabilite to share best practices of coding and support in the development of BrightCoders participants." />
+          <RoadMapItem addToRef={addToRefs} title="Software Enginner at MagmaLabs" period="Feb 2022 - current" subText="Currently I develop on technologies such as Ruby on rails and react in very diverse projects within the MagmaLabs client portfolio and in its internal projects." />
         </Items>
       </Container>
     </Section>

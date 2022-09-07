@@ -38,6 +38,10 @@ const Ball = styled.div`
   top: 0;
   transform: translateX(-50%);
   width: 1.5rem;
+
+  @media (max-width: 48em) {
+    left: 1rem;
+  }
 `
 
 const DrawSvg = () => {
