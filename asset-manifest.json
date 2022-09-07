@@ -1,28 +1,32 @@
 {
   "files": {
-    "main.css": "/static/css/main.687feadc.css",
-    "main.js": "/static/js/main.91593c6e.js",
+    "main.css": "/static/css/main.dc61bf89.css",
+    "main.js": "/static/js/main.4fe40266.js",
     "static/js/787.40a9064b.chunk.js": "/static/js/787.40a9064b.chunk.js",
     "static/media/perfil.jpg": "/static/media/perfil.3cb28c84a1609eca1bff.jpg",
     "static/media/playas.png": "/static/media/playas.c111ebf7e1aa05b7be98.png",
     "static/media/akaya-telivigala-all-400-normal.woff": "/static/media/akaya-telivigala-all-400-normal.78fd8cb2a221beeb77ce.woff",
     "static/media/sumus.png": "/static/media/sumus.a1c6e4795c47ad51db94.png",
+    "static/media/road-rage-all-400-normal.woff": "/static/media/road-rage-all-400-normal.1aaf36453603d17e423a.woff",
     "static/media/akaya-telivigala-telugu-400-normal.woff2": "/static/media/akaya-telivigala-telugu-400-normal.cc24af700d82d6ced8f6.woff2",
+    "static/media/road-rage-latin-400-normal.woff2": "/static/media/road-rage-latin-400-normal.f2faa67b9e097de93977.woff2",
+    "static/media/road-rage-latin-ext-400-normal.woff2": "/static/media/road-rage-latin-ext-400-normal.2f2424a631fd7d4c47a1.woff2",
     "static/media/magma.png": "/static/media/magma.946f2b6db4cebf7ba49b.png",
     "static/media/brightcoder.png": "/static/media/brightcoder.3273e621fae985d9f83c.png",
     "static/media/akaya-telivigala-latin-400-normal.woff2": "/static/media/akaya-telivigala-latin-400-normal.6adfb2bb1dd65aa73a6c.woff2",
     "static/media/sora-all-400-normal.woff": "/static/media/sora-all-400-normal.4e0eb869ce00863294f7.woff",
     "static/media/akaya-telivigala-latin-ext-400-normal.woff2": "/static/media/akaya-telivigala-latin-ext-400-normal.806924fe3d6edb5e4e59.woff2",
+    "static/media/road-rage-vietnamese-400-normal.woff2": "/static/media/road-rage-vietnamese-400-normal.945f369b6e0eb1363daf.woff2",
     "static/media/sora-latin-400-normal.woff2": "/static/media/sora-latin-400-normal.a12f18b2fa36ee4a1216.woff2",
     "static/media/sora-latin-ext-400-normal.woff2": "/static/media/sora-latin-ext-400-normal.256bd69d954f04ef5548.woff2",
     "static/media/hamburguer-menu.svg": "/static/media/hamburguer-menu.aaeb4a139a0d5648e99bcb28affab1f9.svg",
     "index.html": "/index.html",
-    "main.687feadc.css.map": "/static/css/main.687feadc.css.map",
-    "main.91593c6e.js.map": "/static/js/main.91593c6e.js.map",
+    "main.dc61bf89.css.map": "/static/css/main.dc61bf89.css.map",
+    "main.4fe40266.js.map": "/static/js/main.4fe40266.js.map",
     "787.40a9064b.chunk.js.map": "/static/js/787.40a9064b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.687feadc.css",
-    "static/js/main.91593c6e.js"
+    "static/css/main.dc61bf89.css",
+    "static/js/main.4fe40266.js"
   ]
 }
