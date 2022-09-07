@@ -161,16 +161,17 @@ const Text = styled.span`
   font-weight: 400;
   margin: 0.5rem;
 
-  @media (max-width: 40em) {
-    display: none;
-  }
-
   @media (max-width: 64em) {
     font-size: .8em;
     text-align: left;
     margin: .5rem 0;
     display: block;
   }
+  
+  @media (max-width: 40em) {
+    display: none;
+  }
+
 `
 
 
