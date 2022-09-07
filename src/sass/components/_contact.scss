@@ -41,23 +41,13 @@
 
   &__arrow {
     position: absolute;
-    top: 25%;
-    left: 50%;
+    top: 32%;
+    left: 48%;
 
     @include tablet {
-      top: 35%;
-      left: 48%;
-    }
-
-    @include desktop {
-      top: 35%;
+      top: 37%;
       left: 49%;
     }
-
-    @include desktopArrow {
-      top: 32%;
-    }
-
 
     img {
       animation: mover 1s infinite  alternate;
