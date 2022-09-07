@@ -6,7 +6,7 @@
   @include desktop {
     position: fixed;
   }
-  
+
   &__container {
     align-items: center;
     display: flex;
@@ -20,8 +20,8 @@
 .logo-text-desktop {
   color: $white;
   display: none;
-  font-family: 'Akaya Telivigala', cursive;
-  font-size: $fontxxxl;
+  font-family: "Road Rage", cursive;
+  font-size: 3rem;
   transition: all 0.2s ease;
 
   @include tablet {
@@ -35,8 +35,8 @@
 
 .logo-text-small {
   color: $white;
-  font-family: 'Akaya Telivigala', cursive;
-  font-size: $fontxxl;
+  font-family: "Road Rage", cursive;
+  font-size: 2.5rem;
   transition: all 0.2s ease;
 
   @include tablet {
