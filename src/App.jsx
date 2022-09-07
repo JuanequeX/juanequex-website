@@ -4,7 +4,9 @@ import Navigation from './components/Navigation'
 import Sidebar from './components/helpers/Sidebar'
 import Hero from './components/Hero'
 import About from './components/AboutUs'
+import Roadmap from './components/Roadmap'
 import "@fontsource/akaya-telivigala"
+import "@fontsource/road-rage"
 import "@fontsource/sora"
 
 function App() {
@@ -19,6 +21,7 @@ function App() {
       <Sidebar toggle={sidebarIsOpen} isOpen={show} />
       <Hero />
       <About />
+      <Roadmap />
     </>
   )
 }
