@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.df7e147f.css",
-    "main.js": "/static/js/main.3069a727.js",
+    "main.js": "/static/js/main.6d26465b.js",
     "static/js/787.40a9064b.chunk.js": "/static/js/787.40a9064b.chunk.js",
-    "static/media/perfil.jpg": "/static/media/perfil.3cb28c84a1609eca1bff.jpg",
+    "static/media/perfil.png": "/static/media/perfil.90f0a292ea2557e2ec68.png",
     "static/media/playas.png": "/static/media/playas.c111ebf7e1aa05b7be98.png",
     "static/media/akaya-telivigala-all-400-normal.woff": "/static/media/akaya-telivigala-all-400-normal.78fd8cb2a221beeb77ce.woff",
     "static/media/sumus.png": "/static/media/sumus.a1c6e4795c47ad51db94.png",
@@ -28,11 +28,11 @@
     "index.html": "/index.html",
     "static/media/arrow.svg": "/static/media/arrow.ab36596709055d2e9cd3ea8709c59175.svg",
     "main.df7e147f.css.map": "/static/css/main.df7e147f.css.map",
-    "main.3069a727.js.map": "/static/js/main.3069a727.js.map",
+    "main.6d26465b.js.map": "/static/js/main.6d26465b.js.map",
     "787.40a9064b.chunk.js.map": "/static/js/787.40a9064b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.df7e147f.css",
-    "static/js/main.3069a727.js"
+    "static/js/main.6d26465b.js"
   ]
 }
