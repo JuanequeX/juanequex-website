@@ -1,6 +1,6 @@
 import React from 'react'
 import TypeWriterText from './helpers/TypeWriterText'
-import perfil from '../assets/perfil.jpg'
+import perfil from '../assets/perfil.png'
 
 const Hero = () => {
   return (
