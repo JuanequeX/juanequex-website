@@ -5,7 +5,7 @@ const TypeWriterText = () => {
   return (
     <>
       <h1 className="title">
-        {`Hi i'm Juaneque from Guanajuato but Colimote <3`}
+        {`Hi I'm Juaneque from Guanajuato but Colimote <3`}
         <br/><br/>With background in:
         <Typewriter
           options={{

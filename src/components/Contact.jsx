@@ -16,15 +16,12 @@ const Contact = () => {
       transform: rotate(1turn);
     }
   `
-
   const Round = styled.div`
     display: flex;
     justify-content: center;
 
-    margin-top: 3rem;
-
     @media (min-width: 768px) {
-      margin-top: 4.5rem;
+      margin-top: 1rem;
     }
 
     img {
@@ -37,13 +34,13 @@ const Contact = () => {
     <section className="contact" id='contact'>
       <h1 className='contact__title'>Contact Me</h1>
       <div className="contact__container">
-        <div className=''>
+        <div className='contact__container-information'>
           <p className='contact__information'>Do you wanna have a meeting with me?</p>
           <p className='contact__information'>Schedule here</p>
           <div className='contact__arrow'>
             <img src={Arrow} alt="Arrow" />
           </div>
-          <Round >
+          <Round>
             <a href='https://calendly.com/juanequex/30min?back=1&month=2022-09'><img src={Calendly} alt="Calendly" className='contact__icon'/></a>
           </Round>
         </div>
