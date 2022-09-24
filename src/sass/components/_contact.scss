@@ -1,14 +1,15 @@
 .contact {
   background-color: $dark-grey;
   min-height: 75vh;
+  padding-bottom: 3rem;
   position: relative;
   width: 100vw;
 
   &__container {
-    display: flex;
-    justify-content: center;
     align-items: center;
+    display: flex;
     flex-direction: column;
+    justify-content: center;
   }
 
   &__title {
@@ -28,6 +29,7 @@
 
   &__information {
     color: $white;
+    margin: 1rem 0 0;
     text-align: center;
 
     @include tablet {
@@ -35,18 +37,22 @@
     }
   }
 
+  &__container-information {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
   &__icon {
     width: 5rem;
   }
 
   &__arrow {
-    position: absolute;
-    top: 32%;
-    left: 48%;
+    margin-top: 1.5rem;
 
     @include tablet {
-      top: 37%;
-      left: 49%;
+     margin-top: 2.5rem;
     }
 
     img {
@@ -74,6 +80,7 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
+      margin-top: 1rem;
       width: 70%;
 
       @include tablet {

@@ -5,7 +5,7 @@ export const Footer = () => {
     <section className="footer-container">
       <div className='footer-container__copyright'>
         <small>
-        Maded with love by Juanequex <br/> All Rights Reserved&#169; {(new Date().getFullYear())}
+          Made with love by Juanequex <br/> All Rights Reserved &#169; {(new Date().getFullYear())}
         </small>
       </div>
     </section>

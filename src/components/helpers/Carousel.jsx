@@ -14,13 +14,21 @@ import img3 from '../../assets/about/magma.png'
 import img4 from '../../assets/about/brightcoder.png'
 
 const Container = styled.div`
-  margin: 4rem 0 2rem;
   height: 50vh !important;
+  margin: 4rem 0 -2rem;
   width: 60% !important;
 
+  @media (min-width: 768px) {
+    margin:4rem 0 2rem;
+  }
+
   .mySwiper {
-    height: 100%;
+    height: 80%;
     width: 100%;
+
+    @media (min-width: 768px) {
+      height: 100%;
+    }
   }
 
   .swiper-slide {
