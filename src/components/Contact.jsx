@@ -41,7 +41,7 @@ const Contact = () => {
             <img src={Arrow} alt="Arrow" />
           </div>
           <Round>
-            <a href='https://calendly.com/juanequex/mentoring'><img src={Calendly} alt="Calendly" className='contact__icon'/></a>
+            <a target="blank" href='https://calendly.com/juanequex/mentoring'><img src={Calendly} alt="Calendly" className='contact__icon'/></a>
           </Round>
         </div>
         <div className='contact__social'>
