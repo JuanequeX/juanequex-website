@@ -237,7 +237,7 @@ useLayoutEffect(() => {
         </SvgContainer>
         <Items>
           <Item>&nbsp;</Item>
-          <RoadMapItem addToRef={addToRefs} title="Software Enginner at MagmaLabs" period="Feb 2022 - current" subText="Currently I develop on technologies such as Ruby on rails and react in very diverse projects within the MagmaLabs client portfolio and in its internal projects." />
+          <RoadMapItem addToRef={addToRefs} title="Software Engineer at MagmaLabs" period="Feb 2022 - current" subText="Currently I develop on technologies such as Ruby on rails and react in very diverse projects within the MagmaLabs client portfolio and in its internal projects." />
           <RoadMapItem addToRef={addToRefs} title="Ruby on Rails Mentor at BrightCoders" period="Feb 2022 - current" subText="i've been distinguished as mentor with the responsabilite to share best practices of coding and support in the development of BrightCoders participants." />
           <RoadMapItem addToRef={addToRefs} title="RoR BrightCoder" period="Aug 2021 - Dec 2021" subText="I been realized the ruby on rails bootcamp by learn by doing program designed to training through best programming practices and working with agile methodologies in real scenarios." />
           <RoadMapItem addToRef={addToRefs} title="Software Engineering Degree" period="Aug 2018 - Aug 2022" subText="I graduated as a software engineer studying a period of 8 semesters in the Faculty of Telematics of the Universidad de Colima" />
