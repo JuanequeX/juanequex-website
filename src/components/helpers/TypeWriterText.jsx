@@ -6,7 +6,7 @@ const TypeWriterText = () => {
     <>
       <h1 className="title">
         {`Hi I'm Juaneque Full Stack Developer`}
-        <br/><br/>With background in:
+        <br/>With background in:
         <Typewriter
           options={{
             autoStart: true,

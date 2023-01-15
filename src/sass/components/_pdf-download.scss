@@ -49,6 +49,13 @@
 
   @include tablet {
     font-size: $fontxl;
+    font-weight: bold;
+    text-align: left;
+  }
+
+  @include desktop {
+    font-size: 2rem;
+    margin-top: 1rem;
     text-align: left;
   }
 }
@@ -108,7 +115,7 @@ $magma: #BB2649;
     font-weight: bold;
     margin-bottom: 30px;
     outline: none;
-    padding: 14px 46px;
+    padding: 14px 56px;
     position: relative;
     text-align: center;
     text-transform: uppercase;
@@ -139,11 +146,11 @@ $magma: #BB2649;
     }
 
     &:hover {
-      border-radius: 15px 30px 15px 30px;
+      border-radius: 15px 0 15px 0;
       color: $white;
 
       &:after {
-        border-radius: 15px 30px 15px 30px;
+        border-radius: 15px 0 15px 0;
         left: 0;
         top: 0;
         transition: all 0.3s;
@@ -152,7 +159,7 @@ $magma: #BB2649;
 
     &__inner {
       background: $dark-grey;
-      border-radius: 15px 5px 15px 5px;
+      border-radius: 15px 0 15px 0;
       height: 100%;
       left: 0;
       overflow: hidden;

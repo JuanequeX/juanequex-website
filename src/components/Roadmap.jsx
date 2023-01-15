@@ -28,6 +28,7 @@ const Title = styled.h1`
     font-size: 2rem;
   }
 `
+
 const Container = styled.div`
   align-items: center;
   background-color: #EEEDDE;
@@ -46,6 +47,7 @@ const Container = styled.div`
     width: 90%;
   }
 `
+
 const SvgContainer = styled.div`
   align-items: center;
   display: flex;
@@ -90,7 +92,6 @@ const Items = styled.ul`
     }
   }
 
-
   &>*:nth-of-type(2n) {
     justify-content: end;
 
@@ -108,6 +109,7 @@ const Items = styled.ul`
     }
   }
 `
+
 const Item = styled.li`
   display: flex;
   height: 100%;
@@ -171,7 +173,6 @@ const Text = styled.span`
   @media (max-width: 40em) {
     display: none;
   }
-
 `
 
 
@@ -181,7 +182,7 @@ const RoadMapItem = ({title, period, subText, addToRef}) => {
       <ItemContainer>
         <Box>
           <Subtitle>{title}</Subtitle>
-          <p className='period'>{period}</p>
+            <p className='period'>{period}</p>
           <Text>{subText}</Text>
         </Box>
       </ItemContainer>
