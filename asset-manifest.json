@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.99671d09.css",
-    "main.js": "/static/js/main.d020eac8.js",
+    "main.css": "/static/css/main.5f1fdc3f.css",
+    "main.js": "/static/js/main.0a851849.js",
     "static/js/787.40a9064b.chunk.js": "/static/js/787.40a9064b.chunk.js",
     "static/media/perfil.png": "/static/media/perfil.90f0a292ea2557e2ec68.png",
     "static/media/playas.png": "/static/media/playas.c111ebf7e1aa05b7be98.png",
@@ -11,6 +11,7 @@
     "static/media/akaya-telivigala-telugu-400-normal.woff2": "/static/media/akaya-telivigala-telugu-400-normal.cc24af700d82d6ced8f6.woff2",
     "static/media/road-rage-latin-400-normal.woff2": "/static/media/road-rage-latin-400-normal.f2faa67b9e097de93977.woff2",
     "static/media/road-rage-latin-ext-400-normal.woff2": "/static/media/road-rage-latin-ext-400-normal.2f2424a631fd7d4c47a1.woff2",
+    "static/media/current-cv.pdf": "/static/media/current-cv.543bbf6d7ec8e91deec9.pdf",
     "static/media/magma.png": "/static/media/magma.946f2b6db4cebf7ba49b.png",
     "static/media/brightcoder.png": "/static/media/brightcoder.3273e621fae985d9f83c.png",
     "static/media/akaya-telivigala-latin-400-normal.woff2": "/static/media/akaya-telivigala-latin-400-normal.6adfb2bb1dd65aa73a6c.woff2",
@@ -27,12 +28,12 @@
     "static/media/hamburguer-menu.svg": "/static/media/hamburguer-menu.aaeb4a139a0d5648e99bcb28affab1f9.svg",
     "index.html": "/index.html",
     "static/media/arrow.svg": "/static/media/arrow.ab36596709055d2e9cd3ea8709c59175.svg",
-    "main.99671d09.css.map": "/static/css/main.99671d09.css.map",
-    "main.d020eac8.js.map": "/static/js/main.d020eac8.js.map",
+    "main.5f1fdc3f.css.map": "/static/css/main.5f1fdc3f.css.map",
+    "main.0a851849.js.map": "/static/js/main.0a851849.js.map",
     "787.40a9064b.chunk.js.map": "/static/js/787.40a9064b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.99671d09.css",
-    "static/js/main.d020eac8.js"
+    "static/css/main.5f1fdc3f.css",
+    "static/js/main.0a851849.js"
   ]
 }
