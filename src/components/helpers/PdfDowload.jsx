@@ -1,5 +1,5 @@
 import React from "react";
-import pdfUrl from "../../files/current-cv.pdf";
+import pdfUrl from "../../files/juan-curriculum.pdf";
 
 const PdfDownload = () => {
   return (
