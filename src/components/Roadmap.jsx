@@ -193,41 +193,38 @@ const RoadMapItem = ({title, period, subText, addToRef}) => {
 
 const Roadmap = () => {
 
-const revealRefs = useRef([]);
-revealRefs.current = [];
-gsap.registerPlugin(ScrollTrigger);
+  const revealRefs = useRef([]);
+  revealRefs.current = [];
+  gsap.registerPlugin(ScrollTrigger);
 
-const addToRefs = (el) => {
-  if(el && !revealRefs.current.includes(el)) {
-    revealRefs.current.push(el);
+  const addToRefs = (el) => {
+    if(el && !revealRefs.current.includes(el)) {
+      revealRefs.current.push(el);
+    }
   }
-}
 
-useLayoutEffect(() => {
-  let t1 = gsap.timeline();
-  revealRefs.current.forEach((el, index) => {
-    t1.fromTo(
-      el.childNodes[0],
-      {
-        y: '0'
-      },{
-        y: '-30%',
+  useLayoutEffect(() => {
+    let t1 = gsap.timeline();
+    revealRefs.current.forEach((el, index) => {
+      t1.fromTo(
+        el.childNodes[0],
+        {
+          y: '0'
+        },{
+          y: '-30%',
 
-        scrollTrigger: {
-          id: `section-${index + 1}`,
-          trigger: el,
-          start: 'top center+=200px',
-          end:'bottom center',
-          scrub: true
+          scrollTrigger: {
+            id: `section-${index + 1}`,
+            trigger: el,
+            start: 'top center+=200px',
+            end:'bottom center',
+            scrub: true
+          }
         }
-      }
-    )
-  })
-
-  return() => {
-
-  };
-},[])
+      )
+    })
+    return() => {};
+  },[])
 
   return (
     <Section id='roadmap'>
