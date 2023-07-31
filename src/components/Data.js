@@ -1,3 +1,31 @@
+import img1 from '../assets/about/playas.png';
+import img2 from '../assets/about/sumus.png';
+import img3 from '../assets/about/magma.png';
+import img4 from '../assets/about/brightcoder.png';
+
+export const SwiperSlidesData = [
+  {
+    id: 1,
+    image: img1,
+    altText: "The Weirdos",
+  },
+  {
+    id: 2,
+    image: img2,
+    altText: "The Weirdos",
+  },
+  {
+    id: 3,
+    image: img3,
+    altText: "The Weirdos",
+  },
+  {
+    id: 4,
+    image: img4,
+    altText: "The Weirdos",
+  },
+];
+
 export const Data = [
   {
     id: 1,
