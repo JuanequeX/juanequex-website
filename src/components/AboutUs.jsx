@@ -12,9 +12,9 @@ const AboutUs = () => {
           <h2 className="about-us__title">
             who the hell is Juanequex?
           </h2>
-          <p className="about-us__subtext">I have a Software Engineering degree at Universidad de Colima, My working experience runs around ruby on rails, react JS and more recently, solidus.</p>
-          <p className="about-us__subtext">My profesional career started at Bright Coders Academy, with a successful course on Ruby on Rails, a few months after i began working at MagmaLabs.</p>
-          <p className="about-us__subtext">My actual role is RoR dev on MagmaLabs and mentoring at BrightCoders Academy. I‘m part of the Playas on tech community in Manzanillo and enjoy my time creating content and code for my personal brand.</p>
+          <p className="about-us__subtext">I have a Software Engineering degree from the Universidad de Colima. My working experience revolves around Ruby on Rails, JS, and, React JS</p>
+          <p className="about-us__subtext">My professional career started at BrightCoders Academy with a successful course on Ruby on Rails. A few months after, I began working at MagmaLabs.</p>
+          <p className="about-us__subtext">My current role is a RoR developer at MagmaLabs, and I also mentor at BrightCoders Academy. I'm part of the Playas in Tech community in Manzanillo and enjoy spending my time creating content and code for my personal brand's growth</p>
         </div>
       </div>
     </section>
