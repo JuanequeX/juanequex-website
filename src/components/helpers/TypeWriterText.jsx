@@ -5,7 +5,7 @@ const TypeWriterText = () => {
   return (
     <>
       <h1 className="title">
-        {`Hi I'm Juaneque Full Stack Developer`}
+        {`Hi I'm Juaneque Full Snack Developer`}
         <br/>With background in:
         <Typewriter
           options={{
@@ -14,9 +14,6 @@ const TypeWriterText = () => {
           }}
           onInit={(typewriter) => {
             typewriter.typeString(`<span class="text-1">React JS</span>`)
-            .pauseFor(2000)
-            .deleteAll()
-            .typeString(`<span class="text-2">Solidus</span>`)
             .pauseFor(2000)
             .deleteAll()
             .typeString(`<span class="text-3">Ruby On Rails</span>`)
