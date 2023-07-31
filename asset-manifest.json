@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.64680a73.css",
+    "main.css": "/static/css/main.dc054ecf.css",
     "main.js": "/static/js/main.77346a40.js",
     "static/js/787.40a9064b.chunk.js": "/static/js/787.40a9064b.chunk.js",
     "static/media/playas.png": "/static/media/playas.c111ebf7e1aa05b7be98.png",
@@ -28,12 +28,12 @@
     "static/media/hamburguer-menu.svg": "/static/media/hamburguer-menu.aaeb4a139a0d5648e99bcb28affab1f9.svg",
     "index.html": "/index.html",
     "static/media/arrow.svg": "/static/media/arrow.ab36596709055d2e9cd3ea8709c59175.svg",
-    "main.64680a73.css.map": "/static/css/main.64680a73.css.map",
+    "main.dc054ecf.css.map": "/static/css/main.dc054ecf.css.map",
     "main.77346a40.js.map": "/static/js/main.77346a40.js.map",
     "787.40a9064b.chunk.js.map": "/static/js/787.40a9064b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.64680a73.css",
+    "static/css/main.dc054ecf.css",
     "static/js/main.77346a40.js"
   ]
 }
