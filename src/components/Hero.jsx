@@ -1,6 +1,6 @@
 import React from 'react'
 import TypeWriterText from './helpers/TypeWriterText'
-import perfil from '../assets/perfil.png'
+import perfil from '../assets/perfil.webp'
 import PdfDownload from './helpers/PdfDowload'
 
 const Hero = () => {
