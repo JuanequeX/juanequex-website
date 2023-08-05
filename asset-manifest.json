@@ -1,18 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.dc054ecf.css",
-    "main.js": "/static/js/main.77346a40.js",
+    "main.css": "/static/css/main.6227e59f.css",
+    "main.js": "/static/js/main.373ec376.js",
     "static/js/787.40a9064b.chunk.js": "/static/js/787.40a9064b.chunk.js",
-    "static/media/playas.png": "/static/media/playas.c111ebf7e1aa05b7be98.png",
     "static/media/akaya-telivigala-all-400-normal.woff": "/static/media/akaya-telivigala-all-400-normal.78fd8cb2a221beeb77ce.woff",
-    "static/media/sumus.png": "/static/media/sumus.a1c6e4795c47ad51db94.png",
     "static/media/road-rage-all-400-normal.woff": "/static/media/road-rage-all-400-normal.1aaf36453603d17e423a.woff",
     "static/media/akaya-telivigala-telugu-400-normal.woff2": "/static/media/akaya-telivigala-telugu-400-normal.cc24af700d82d6ced8f6.woff2",
     "static/media/road-rage-latin-400-normal.woff2": "/static/media/road-rage-latin-400-normal.f2faa67b9e097de93977.woff2",
+    "static/media/sumus.png": "/static/media/sumus.6ea307925f0048ea9c64.png",
     "static/media/road-rage-latin-ext-400-normal.woff2": "/static/media/road-rage-latin-ext-400-normal.2f2424a631fd7d4c47a1.woff2",
+    "static/media/playas.png": "/static/media/playas.c3d2c9a0648f4d5d6fa0.png",
     "static/media/juan-curriculum.pdf": "/static/media/juan-curriculum.42a8e1ae06c2dbd15c6f.pdf",
-    "static/media/magma.png": "/static/media/magma.946f2b6db4cebf7ba49b.png",
-    "static/media/brightcoder.png": "/static/media/brightcoder.3273e621fae985d9f83c.png",
     "static/media/akaya-telivigala-latin-400-normal.woff2": "/static/media/akaya-telivigala-latin-400-normal.6adfb2bb1dd65aa73a6c.woff2",
     "static/media/perfil.webp": "/static/media/perfil.da2b0335ca60767c6202.webp",
     "static/media/github.png": "/static/media/github.5e081e32a3893227585c.png",
@@ -20,20 +18,22 @@
     "static/media/sora-all-400-normal.woff": "/static/media/sora-all-400-normal.4e0eb869ce00863294f7.woff",
     "static/media/twitter.png": "/static/media/twitter.8e9f0765886432f2f259.png",
     "static/media/akaya-telivigala-latin-ext-400-normal.woff2": "/static/media/akaya-telivigala-latin-ext-400-normal.806924fe3d6edb5e4e59.woff2",
+    "static/media/brightcoder.png": "/static/media/brightcoder.58cc5131423183b9f279.png",
     "static/media/instagram.png": "/static/media/instagram.d99bc3a22bab940394f0.png",
     "static/media/road-rage-vietnamese-400-normal.woff2": "/static/media/road-rage-vietnamese-400-normal.945f369b6e0eb1363daf.woff2",
     "static/media/sora-latin-400-normal.woff2": "/static/media/sora-latin-400-normal.a12f18b2fa36ee4a1216.woff2",
     "static/media/linkedin.png": "/static/media/linkedin.9d535504e51ba4cea735.png",
+    "static/media/magma.png": "/static/media/magma.8635003127c94d421661.png",
     "static/media/sora-latin-ext-400-normal.woff2": "/static/media/sora-latin-ext-400-normal.256bd69d954f04ef5548.woff2",
     "static/media/hamburguer-menu.svg": "/static/media/hamburguer-menu.aaeb4a139a0d5648e99bcb28affab1f9.svg",
     "index.html": "/index.html",
     "static/media/arrow.svg": "/static/media/arrow.ab36596709055d2e9cd3ea8709c59175.svg",
-    "main.dc054ecf.css.map": "/static/css/main.dc054ecf.css.map",
-    "main.77346a40.js.map": "/static/js/main.77346a40.js.map",
+    "main.6227e59f.css.map": "/static/css/main.6227e59f.css.map",
+    "main.373ec376.js.map": "/static/js/main.373ec376.js.map",
     "787.40a9064b.chunk.js.map": "/static/js/787.40a9064b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc054ecf.css",
-    "static/js/main.77346a40.js"
+    "static/css/main.6227e59f.css",
+    "static/js/main.373ec376.js"
   ]
 }
