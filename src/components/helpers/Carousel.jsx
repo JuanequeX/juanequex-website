@@ -75,9 +75,9 @@ const Carousel = () => {
       >
         {SwiperSlidesData.map((slide) => (
           <SwiperSlide key={slide.id}>
-            <img className='img-swiper' src={slide.image} alt={slide.altText} />
+            <img className='img-swiper' width="auto" height="auto" src={slide.image} alt={slide.altText} />
           </SwiperSlide>
-        ))}s
+        ))}
       </Swiper>
     </Container>
   )

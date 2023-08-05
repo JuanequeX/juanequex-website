@@ -38,19 +38,19 @@ const Contact = () => {
           <p className='contact__information'>Do you wanna have a meeting with me?</p>
           <p className='contact__information'>Schedule here</p>
           <div className='contact__arrow'>
-            <img src={Arrow} alt="Arrow" />
+            <img width={100} height={110} src={Arrow} alt="Arrow" />
           </div>
           <Round>
-            <a target="blank" href='https://calendly.com/juanequex/personal'><img src={Calendly} alt="Calendly" className='contact__icon'/></a>
+            <a target="blank" href='https://calendly.com/juanequex/personal'><img width={80} height={80} src={Calendly} alt="Calendly" className='contact__icon'/></a>
           </Round>
         </div>
         <div className='contact__social'>
             <p className="contact__information">More About Juanequex</p>
             <div className="contact__social__icons">
-              <a href="https://github.com/JuanequeX" ><img src={Github} alt="Github" className='contact__social__icon'/></a>
-              <a href="https://www.linkedin.com/in/juan-ram%C3%B3n-guzm%C3%A1n-aguilar-084a42176/" ><img src={Linkedin} alt="Linkedin" className='contact__social__icon'/></a>
-              <a href="https://www.instagram.com/juanequex/" ><img src={Instagram} alt="instagram" className='contact__social__icon'/></a>
-              <a href="https://twitter.com/juanequeX" ><img src={Twitter} alt="Twitter" className='contact__social__icon'/></a>
+              <a href="https://github.com/JuanequeX" ><img width={80} height={95} src={Github} alt="Github" className='contact__social__icon'/></a>
+              <a href="https://www.linkedin.com/in/juan-ram%C3%B3n-guzm%C3%A1n-aguilar-084a42176/" ><img width={80} height={95} src={Linkedin} alt="Linkedin" className='contact__social__icon'/></a>
+              <a href="https://www.instagram.com/juanequex/" ><img width={80} height={95} src={Instagram} alt="instagram" className='contact__social__icon'/></a>
+              <a href="https://twitter.com/juanequeX" ><img width={80} height={95} src={Twitter} alt="Twitter" className='contact__social__icon'/></a>
             </div>
         </div>
       </div>
