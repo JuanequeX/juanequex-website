@@ -1,12 +1,19 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Logo from './helpers/Logo'
 import HeaderItem from '../shared/HeaderItem/headerItem'
 import MenuIcon from '../assets/navigation/hamburguer-menu.svg'
 
 const Navigation = ({ isOpen }) => {
+  const [navbar, setNavbar] = useState(false)
+
+  const changeBackground = () => {
+    window.scrollY >= 60 ? setNavbar(true) : setNavbar(false)
+  }
+
+  window.addEventListener('scroll', changeBackground)
 
   return (
-    <section className='navbar'>
+    <nav className={navbar ? "navbar active" : "navbar"}>
       <div className='navbar__container'>
         <Logo />
         <div className="menu-container">
@@ -42,7 +49,7 @@ const Navigation = ({ isOpen }) => {
           />
         </div>
       </div>
-    </section>
+    </nav>
   )
 }
 

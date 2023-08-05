@@ -1,9 +1,12 @@
 .navbar {
-  background-color: $dark-grey;
+  background: $dark-grey;
+  color: $white;
   width: 100vw;
   z-index: 100;
 
   @include desktop {
+    background: transparent;
+    color: $dark-grey;
     position: fixed;
   }
 
@@ -17,8 +20,27 @@
   }
 }
 
+.navbar.active {
+
+  @include desktop {
+    background-color: $dark-grey;
+    color: $white;
+  }
+
+  .menu-container__link {
+    color: $white;
+
+    @include desktop {
+
+      &::after {
+        background-color: $white;
+      }
+    }
+  }
+}
+
+
 .logo-text-desktop {
-  color: $white;
   cursor: pointer;
   font-family: "Road Rage", cursive;
   font-size: 3rem;
@@ -49,15 +71,14 @@
     display: none;
 
     @include desktop {
-      color: $white;
       display: block;
       font-style: normal;
       margin: 0 1rem;
       text-decoration: none;
 
       &::after {
-        content: ' ';
-        background-color: $white;
+        content: '';
+        background-color: $dark-grey;
         display: block;
         height: 2px;
         transition: width 0.3s ease;
