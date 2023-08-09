@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.6227e59f.css",
-    "main.js": "/static/js/main.a437a253.js",
+    "main.js": "/static/js/main.1c8485d8.js",
     "static/js/787.40a9064b.chunk.js": "/static/js/787.40a9064b.chunk.js",
     "static/media/akaya-telivigala-all-400-normal.woff": "/static/media/akaya-telivigala-all-400-normal.78fd8cb2a221beeb77ce.woff",
     "static/media/road-rage-all-400-normal.woff": "/static/media/road-rage-all-400-normal.1aaf36453603d17e423a.woff",
     "static/media/akaya-telivigala-telugu-400-normal.woff2": "/static/media/akaya-telivigala-telugu-400-normal.cc24af700d82d6ced8f6.woff2",
     "static/media/road-rage-latin-400-normal.woff2": "/static/media/road-rage-latin-400-normal.f2faa67b9e097de93977.woff2",
     "static/media/sumus.png": "/static/media/sumus.6ea307925f0048ea9c64.png",
-    "static/media/juan-curriculum.pdf": "/static/media/juan-curriculum.d5b1cb860ec99dad7664.pdf",
+    "static/media/juan-curriculum.pdf": "/static/media/juan-curriculum.12728a9c619c405947d0.pdf",
     "static/media/road-rage-latin-ext-400-normal.woff2": "/static/media/road-rage-latin-ext-400-normal.2f2424a631fd7d4c47a1.woff2",
     "static/media/playas.png": "/static/media/playas.c3d2c9a0648f4d5d6fa0.png",
     "static/media/akaya-telivigala-latin-400-normal.woff2": "/static/media/akaya-telivigala-latin-400-normal.6adfb2bb1dd65aa73a6c.woff2",
@@ -29,11 +29,11 @@
     "index.html": "/index.html",
     "static/media/arrow.svg": "/static/media/arrow.ab36596709055d2e9cd3ea8709c59175.svg",
     "main.6227e59f.css.map": "/static/css/main.6227e59f.css.map",
-    "main.a437a253.js.map": "/static/js/main.a437a253.js.map",
+    "main.1c8485d8.js.map": "/static/js/main.1c8485d8.js.map",
     "787.40a9064b.chunk.js.map": "/static/js/787.40a9064b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6227e59f.css",
-    "static/js/main.a437a253.js"
+    "static/js/main.1c8485d8.js"
   ]
 }
