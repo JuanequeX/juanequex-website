@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.6227e59f.css",
-    "main.js": "/static/js/main.0526dfb4.js",
+    "main.js": "/static/js/main.b31fbeec.js",
     "static/js/787.40a9064b.chunk.js": "/static/js/787.40a9064b.chunk.js",
+    "static/media/juanequex.webp": "/static/media/juanequex.2a71a78d6dd72516a769.webp",
     "static/media/akaya-telivigala-all-400-normal.woff": "/static/media/akaya-telivigala-all-400-normal.78fd8cb2a221beeb77ce.woff",
     "static/media/road-rage-all-400-normal.woff": "/static/media/road-rage-all-400-normal.1aaf36453603d17e423a.woff",
     "static/media/akaya-telivigala-telugu-400-normal.woff2": "/static/media/akaya-telivigala-telugu-400-normal.cc24af700d82d6ced8f6.woff2",
@@ -12,7 +13,6 @@
     "static/media/road-rage-latin-ext-400-normal.woff2": "/static/media/road-rage-latin-ext-400-normal.2f2424a631fd7d4c47a1.woff2",
     "static/media/playas.png": "/static/media/playas.c3d2c9a0648f4d5d6fa0.png",
     "static/media/akaya-telivigala-latin-400-normal.woff2": "/static/media/akaya-telivigala-latin-400-normal.6adfb2bb1dd65aa73a6c.woff2",
-    "static/media/perfil.webp": "/static/media/perfil.da2b0335ca60767c6202.webp",
     "static/media/github.png": "/static/media/github.5e081e32a3893227585c.png",
     "static/media/calendly.png": "/static/media/calendly.b22e3eb86f91cefa5b37.png",
     "static/media/sora-all-400-normal.woff": "/static/media/sora-all-400-normal.4e0eb869ce00863294f7.woff",
@@ -29,11 +29,11 @@
     "index.html": "/index.html",
     "static/media/arrow.svg": "/static/media/arrow.ab36596709055d2e9cd3ea8709c59175.svg",
     "main.6227e59f.css.map": "/static/css/main.6227e59f.css.map",
-    "main.0526dfb4.js.map": "/static/js/main.0526dfb4.js.map",
+    "main.b31fbeec.js.map": "/static/js/main.b31fbeec.js.map",
     "787.40a9064b.chunk.js.map": "/static/js/787.40a9064b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6227e59f.css",
-    "static/js/main.0526dfb4.js"
+    "static/js/main.b31fbeec.js"
   ]
 }
