@@ -1,9 +1,7 @@
-$breakpoint-desktop: 1024px;
 $breakpoint-tablet: 768px;
+$breakpoint-desktop: 1024px;
 $breakpoint-desktop-arrow: 1440px;
 $breakpoint-desktop-arrow-plus: 1600px;
-
-
 
 @mixin tablet {
   @media only screen and (min-width: $breakpoint-tablet) {
