@@ -17,6 +17,10 @@
     justify-content: space-between;
     margin: 0 auto;
     width: 85%;
+
+    h1 {
+      font-size: 3rem;
+    }
   }
 }
 
@@ -42,7 +46,6 @@
 
 .logo-text-desktop {
   cursor: pointer;
-  font-family: "Road Rage", cursive;
   font-size: 3rem;
   transition: all 0.2s ease;
 

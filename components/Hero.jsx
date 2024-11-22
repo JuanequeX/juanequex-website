@@ -1,6 +1,6 @@
 import React from 'react'
 import TypeWriterText from './helpers/TypeWriterText'
-import perfil from '../assets/juanequex.webp'
+import perfil from '@/public/assets/juanequex.webp'
 import PdfDownload from './helpers/PdfDowload'
 
 const Hero = () => {
@@ -11,10 +11,10 @@ const Hero = () => {
           <div>
             <TypeWriterText />
           </div>
-          <div className='hiring-big'>
+          {/* <div className='hiring-big'>
             <h1 className='hiring-text'>Hiring Me!</h1>
             <PdfDownload />
-          </div>
+          </div> */}
         </div>
         <div className="hero__box">
           <div className="hero__img-container">

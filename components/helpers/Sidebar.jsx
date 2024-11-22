@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import HeaderItem from "../../shared/HeaderItem/headerItem";
+import HeaderItem from '@/components/headerItem'
 import classNames from "classnames";
 
 const Sidebar = ({ toggle, isOpen }) => {

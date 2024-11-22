@@ -1,13 +1,12 @@
 import React from 'react'
-import Calendly from '../assets/contact/calendly.png'
-import Github from '../assets/contact/github.png'
-import Linkedin from '../assets/contact/linkedin.png'
-import Instagram from '../assets/contact/instagram.png'
-import Twitter from '../assets/contact/twitter.png'
-import Arrow from '../assets/contact/arrow.svg'
+import Calendly from '@/public/assets/contact/calendly.png'
+import Github from '@/public/assets/contact/github.png'
+import Linkedin from '@/public/assets/contact/linkedin.png'
+import Instagram from '@/public/assets/contact/instagram.png'
+import Twitter from '@/public/assets/contact/twitter.png'
+import Arrow from '@/public/assets/contact/arrow.svg'
 import styled from 'styled-components'
 import { keyframes } from 'styled-components'
-
 
 const Contact = () => {
 

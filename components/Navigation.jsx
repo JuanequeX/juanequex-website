@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
 import Logo from './helpers/Logo'
-import HeaderItem from '../shared/HeaderItem/headerItem'
-import MenuIcon from '../assets/navigation/hamburguer-menu.svg'
+import HeaderItem from '@/components/headerItem'
+import MenuIcon from '@/public/assets/navigation/hamburguer-menu.svg'
+import Image from 'next/image'
 
 const Navigation = ({ isOpen }) => {
   const [navbar, setNavbar] = useState(false)
@@ -17,10 +18,12 @@ const Navigation = ({ isOpen }) => {
       <div className='navbar__container'>
         <Logo />
         <div className="menu-container">
-          <img
-            alt="Hamburguer icon"
+          <Image
+            alt="Logo"
             className="menu-container__hamburguer-icon"
             src={MenuIcon}
+            width={30}
+            height={30}
             onClick={() => isOpen()}
           />
 

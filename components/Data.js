@@ -1,7 +1,7 @@
-import img1 from '../assets/about/playas.png';
-import img2 from '../assets/about/sumus.png';
-import img3 from '../assets/about/magma.png';
-import img4 from '../assets/about/brightcoder.png';
+import img1 from '@/public/assets/about/playas.png';
+import img2 from '@/public/assets/about/sumus.png';
+import img3 from '@/public/assets/about/magma.png';
+import img4 from '@/public/assets/about/brightcoder.png';
 
 export const SwiperSlidesData = [
   {
