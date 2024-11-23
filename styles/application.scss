@@ -1,0 +1,19 @@
+@import "swiper/css";
+@import "swiper/css/effect-cards";
+@import "swiper/css/pagination";
+@import "swiper/css/navigation";
+
+@import
+  './utils/colors',
+  './abstracts/mixins',
+  './layouts/App',
+  './components/carousel';
+
+@import
+  './components/nav',
+  './components/sidebar',
+  './components/hero',
+  './components/pdf-download',
+  './components/about-us',
+  './components/contact',
+  './components/footer';

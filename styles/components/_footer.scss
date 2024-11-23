@@ -1,0 +1,18 @@
+
+.footer-container{
+  background-color: $dark-grey;
+  min-height: 5rem;
+  position: relative;
+  width: 100vw;
+
+  &__copyright {
+    color: $white;
+    display: flex;
+    font-family: "sora";
+    justify-content: center;
+    margin: 0 auto;
+    padding-bottom: 1rem;
+    text-align: center;
+    width: 80%;
+  }
+}

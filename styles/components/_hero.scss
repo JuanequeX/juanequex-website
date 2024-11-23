@@ -1,0 +1,180 @@
+.hero {
+  background-color: $white;
+  min-height: 100%;
+  position: relative;
+  width: 100vw;
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    min-height: 80vh;
+    width: 90%;
+
+    @include tablet {
+      flex-direction: row;
+      min-height: 100vh;
+    }
+
+    @include desktop {
+      width: 100%;
+    }
+  }
+
+  &__info_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+
+    @include tablet {
+      width: 100%;
+    }
+
+    @include desktop {
+      width: 50%;
+    }
+  }
+
+  &__box {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    width: 90vw;
+
+    @include desktop {
+      width: 35vw;
+    }
+  }
+
+  &__img-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    width: 100%;
+
+    @include desktop {
+      margin-top: 3rem;
+    }
+  }
+
+  &__profile-pic {
+    border-radius: 100%;
+    box-shadow: 0px 0px 14px 6px rgba(24,28,37,0.42);
+    width: auto;
+
+    @include tablet {
+      align-self: center;
+      height: auto;
+      margin: 0 0 0 4rem;
+      width: 90%;
+    }
+
+    @include desktop {
+      transition: all 0.4s ease 0s;
+      width: 80%;
+
+      &:hover{
+        transform: translateY(-.8rem) scale(1);
+      }
+    }
+  }
+}
+
+.presentation-contaniner {
+
+  &__title {
+    align-self: center;
+    color: $dark-grey;
+    font-family: 'Sora';
+    font-size: $fontxl;
+    text-align: center;
+    width: 100%;
+
+    @include tablet {
+      font-size: $fontxxl;
+      margin-top: 0;
+      text-align: left;
+    }
+
+    @include desktop {
+      align-self: flex-start;
+      font-size: 1.9rem;
+      margin-top: 0;
+      text-align: left;
+    }
+  }
+
+  &__type-container {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+    @include tablet {
+      margin-top: 0;
+      text-align: left;
+      align-items: start;
+    }
+
+    @include desktopPlus {
+      flex-direction: row;
+      width: 100%;
+    }
+  }
+
+  h2 {
+    font-family: 'Sora';
+    padding: 0 1.5rem;
+    margin: 0 auto;
+    text-align: center;
+
+    @include tablet {
+      text-align: left;
+      padding: 0;
+    }
+
+    @include desktop {
+      margin: 0;
+    }
+
+    @include desktopPlus {
+      font-size: 1.8rem;
+      margin-right: .5rem;
+    }
+  }
+
+  div > span {
+    text-transform: uppercase;
+    font-family: "Road Rage";
+  }
+
+  .text-1 {
+    color: #27292a;
+    font-size: 2rem;
+  }
+
+  .text-2 {
+    color: #3D76F0;
+    font-size: 2rem;
+  }
+
+  .text-3 {
+    color: rgb(203, 101, 135);
+    font-size: 2rem;
+  }
+
+  .text-4 {
+    color: #6A3ECE;
+    font-size: 2rem;
+  }
+}
+
+.Typewriter__cursor {
+  font-size: 2rem;
+}
