@@ -5,9 +5,9 @@ import Navigation from "@/components/Navigation";
 import Sidebar from "@/components/helpers/Sidebar";
 import Hero from "@/components/Hero";
 import About from "@/components/AboutUs";
-// import Roadmap from './components/Roadmap'
-// import Contact from './components/Contact'
-// import Footer  from './components/Footer'
+import Roadmap from '@/components/Roadmap'
+import Contact from '@/components/Contact'
+import Footer  from '@/components/Footer'
 
 export default function App() {
   const [sidebarIsOpen, setSidebarOpen] = useState(false);
@@ -20,9 +20,9 @@ export default function App() {
       <Sidebar toggle={sidebarIsOpen} isOpen={toggleSidebar} />
       <Hero />
       <About />
-      {/*<Roadmap />
+      <Roadmap />
       <Contact />
-      <Footer /> */}
+      <Footer />
     </>
   );
 }

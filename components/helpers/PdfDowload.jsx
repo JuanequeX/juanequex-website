@@ -1,3 +1,4 @@
+"use client"
 import React from "react";
 // import pdfUrl from "../../files/juan-curriculum.pdf";
 

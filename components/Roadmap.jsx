@@ -1,3 +1,5 @@
+"use client"
+
 import React, { useLayoutEffect, useRef } from 'react'
 import styled from 'styled-components'
 import DrawSvg from './helpers/DrawSvg'
@@ -12,11 +14,12 @@ const Section = styled.section`
   width: 100vw;
 `
 
-const Title = styled.h1`
+const Title = styled.h3`
   align-items: center;
   border-bottom: 2px solid #181C25;
   color: #181C25;
   display: flex;
+  font-family: "sora";
   font-size: 2.5rem;
   justify-content: center;
   margin: 0 auto;
@@ -38,14 +41,15 @@ const Container = styled.div`
   justify-content: center;
   margin: 0 auto;
   position: relative;
-  width: 70%;
+  width: 90%;
 
   @media (max-width: 64em) {
     width: 80%;
   }
 
   @media (max-width: 40em) {
-    width: 90%;
+    width: 97%;
+    margin-left: 1rem;
   }
 `
 
@@ -128,7 +132,7 @@ const ItemContainer = styled.div`
   width: 40%;
 
   @media (max-width: 48em) {
-   width: 70%;
+   width: 85%;
   }
 `
 
@@ -136,6 +140,7 @@ const Box = styled.p`
   background-color: #181C25;
   box-shadow: 0px 0px 14px 6px rgba(24,28,37,0.42);
   color: #181C25;
+  font-family: "sora";
   height: fit-content;
   padding: 1rem;
   position: relative;
@@ -172,7 +177,7 @@ const Text = styled.span`
   }
 
   @media (max-width: 40em) {
-    display: none;
+    display: block;
   }
 `
 

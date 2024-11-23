@@ -7,11 +7,12 @@
 
   &__copyright {
     color: $white;
-    margin: 0 auto;
-    text-align: center;
     display: flex;
+    font-family: "sora";
     justify-content: center;
-    width: 80%;
+    margin: 0 auto;
     padding-bottom: 1rem;
+    text-align: center;
+    width: 80%;
   }
 }

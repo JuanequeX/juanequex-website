@@ -1,6 +1,6 @@
 .contact {
   background-color: $dark-grey;
-  min-height: 60vh;
+  min-height: 30vh;
   padding-bottom: 3rem;
   position: relative;
   width: 100vw;
@@ -15,6 +15,7 @@
   &__title {
     border-bottom: 2px solid $white;
     color: $white;
+    font-family: "sora";
     font-size: 1.5rem;
     margin: 0 auto;
     margin-bottom: 1rem;
@@ -31,6 +32,7 @@
     color: $white;
     margin: 1rem 0 0;
     text-align: center;
+    font-family: "sora";
 
     @include tablet {
       font-size: 1.3rem;
@@ -78,9 +80,7 @@
 
     &__icons {
       display: flex;
-      flex-wrap: wrap;
       justify-content: center;
-      margin-top: 1rem;
       width: 70%;
 
       @include tablet {

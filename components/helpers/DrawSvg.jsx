@@ -1,3 +1,5 @@
+"use client"
+
 import React, { useLayoutEffect, useRef } from 'react'
 import gsap from 'gsap'
 import ScrollTrigger   from 'gsap/ScrollTrigger'
@@ -54,10 +56,7 @@ const DrawSvg = () => {
     let svg = document.getElementsByClassName('svg-path')[0];
     const length = svg.getTotalLength();
 
-    // Start positioning of svg drawing
     svg.style.strokeDasharray = length;
-
-    // Hide svg before scrolling start
     svg.style.strokeDashoffset = length;
 
     let t1 = gsap.timeline ({
@@ -68,7 +67,6 @@ const DrawSvg = () => {
         onUpdate: (self) => {
           const draw = length * self.progress;
 
-          // also reverse the drawing when scroll goes up
           svg.style.strokeDashoffset = length - draw;
         },
         onToggle: self => {

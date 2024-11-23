@@ -26,21 +26,21 @@ export const SwiperSlidesData = [
 export const Data = [
   {
     id: 1,
-    title: "Software Engineer at Finc by Monato",
+    title: "Software Engineer at Finch",
     period: "Apr 2024 - Current",
-    subText: "Currently, I develop technologies such as Ruby on Rails and React in diverse projects within the MagmaLabs client portfolio and its internal projects.",
+    subText: "Currently, I'm the responsable to build and maintain an customer plataform that offers SPEI as a service.",
   },
   {
     id: 2,
     title: "Software Engineer AA at Magmalabs",
     period: "Feb 2022 - Mar 2024",
-    subText: "Currently, I develop technologies such as Ruby on Rails and React in diverse projects within the MagmaLabs client portfolio and its internal projects.",
+    subText: "I developed features using Ruby on Rails, React, and AI, improving data visualization, CI/CD, and user experiences across various projects.",
   },
   {
     id: 3,
     title: "Ruby on Rails Mentor at BrightCoders",
     period: "Feb 2022 - Mar 2024",
-    subText: "I have been distinguished as a mentor with the responsibility to share best coding practices and support in the development of BrightCoders participants.",
+    subText: "I was honored to serve as a mentor, sharing best coding practices and providing guidance to support the development of participants at BrightCoders.",
   },
   {
     id: 4,
@@ -52,6 +52,6 @@ export const Data = [
     id: 5,
     title: "Software Engineering Degree",
     period: "Aug 2018 - Aug 2022",
-    subText: "I graduated as a software engineer after studying for a period of 8 semesters at the Faculty of Telematics of the Universidad de Colima.",
+    subText: "I earned my degree in Software Engineering after completing eight semesters at the Faculty of Telematics, UdeC.",
   }
 ];

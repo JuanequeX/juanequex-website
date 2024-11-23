@@ -4,6 +4,7 @@
   display: flex;
   justify-content: center;
   min-height: 90vh;
+  padding-bottom: 2rem;
   position: relative;
   width: 100%;
 
@@ -81,6 +82,7 @@
     a {
       color: rgb(244, 62, 62);
       cursor: pointer;
+      text-decoration: underline;
     }
   }
 }
