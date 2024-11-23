@@ -11,7 +11,7 @@
     flex-direction: column;
     margin: 0 auto;
     min-height: 80vh;
-    width: 75%;
+    width: 90%;
 
     @include tablet {
       flex-direction: row;
@@ -34,7 +34,6 @@
     }
 
     @include desktop {
-      margin-top: 14rem;
       width: 50%;
     }
   }
@@ -55,11 +54,11 @@
   &__img-container {
     display: flex;
     justify-content: center;
-    margin-top: 2rem;
+    margin-top: 3rem;
     width: 100%;
 
     @include desktop {
-      margin-top: 4rem;
+      margin-top: 3rem;
     }
   }
 
@@ -86,35 +85,77 @@
   }
 }
 
-//Typewriter.jsx
-.title {
-  align-self: center;
-  color: $dark-grey;
-  font-size: $fontxl;
-  margin-top: 5rem;
-  text-align: center;
-  text-transform: capitalize;
-  width: 100%;
+.presentation-contaniner {
 
-  @include tablet {
-    font-size: $fontxxl;
-    margin-top: 0;
-    text-align: left;
+  &__title {
+    align-self: center;
+    color: $dark-grey;
+    font-family: 'Sora';
+    font-size: $fontxl;
+    text-align: center;
+    width: 100%;
+
+    @include tablet {
+      font-size: $fontxxl;
+      margin-top: 0;
+      text-align: left;
+    }
+
+    @include desktop {
+      align-self: flex-start;
+      font-size: 1.9rem;
+      margin-top: 0;
+      text-align: left;
+    }
   }
 
-  @include desktop {
-    align-self: flex-start;
-    font-size: 2rem;
-    margin-top: 0;
-    text-align: left;
+  &__type-container {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+    @include tablet {
+      margin-top: 0;
+      text-align: left;
+      align-items: start;
+    }
+
+    @include desktopPlus {
+      flex-direction: row;
+      width: 100%;
+    }
   }
 
-  span {
+  h2 {
+    font-family: 'Sora';
+    padding: 0 1.5rem;
+    margin: 0 auto;
+    text-align: center;
+
+    @include tablet {
+      text-align: left;
+      padding: 0;
+    }
+
+    @include desktop {
+      margin: 0;
+    }
+
+    @include desktopPlus {
+      font-size: 1.8rem;
+      margin-right: .5rem;
+    }
+  }
+
+  div > span {
     text-transform: uppercase;
+    font-family: "Road Rage";
   }
 
   .text-1 {
-    color: #00D2F8;
+    color: #27292a;
     font-size: 2rem;
   }
 
@@ -124,12 +165,12 @@
   }
 
   .text-3 {
-    color: rgb(249, 37, 37);
+    color: rgb(94, 77, 159);
     font-size: 2rem;
   }
 
   .text-4 {
-    color: rgb(244, 210, 76);
+    color: #0030C3;
     font-size: 2rem;
   }
 }

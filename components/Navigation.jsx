@@ -1,20 +1,14 @@
-import React, { useState } from 'react'
+"use client"
+
 import Logo from './helpers/Logo'
-import HeaderItem from '@/components/headerItem'
+import HeaderItem from '@/components/helpers/headerItem'
 import MenuIcon from '@/public/assets/navigation/hamburguer-menu.svg'
 import Image from 'next/image'
 
 const Navigation = ({ isOpen }) => {
-  const [navbar, setNavbar] = useState(false)
-
-  const changeBackground = () => {
-    window.scrollY >= 60 ? setNavbar(true) : setNavbar(false)
-  }
-
-  window.addEventListener('scroll', changeBackground)
 
   return (
-    <nav className={navbar ? "navbar active" : "navbar"}>
+    <nav className="navbar active">
       <div className='navbar__container'>
         <Logo />
         <div className="menu-container">

@@ -2,8 +2,8 @@ import type { Metadata } from 'next';
 import '@/styles/application.scss';
 
 export const metadata: Metadata = {
-  title: 'React App',
-  description: 'Web site created with Next.js.',
+  title: 'Juanequex',
+  description: 'Oficial website of Juanequex ✨',
 }
 
 export default async function RootLayout({

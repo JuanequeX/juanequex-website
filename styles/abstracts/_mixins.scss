@@ -21,7 +21,7 @@ $breakpoint-desktop-arrow: 1440px;
   }
 }
 
-@mixin desktopArrowPlus {
+@mixin desktopPlus {
   @media only screen and (min-width: $breakpoint-desktop-arrow-plus) {
     @content;
   }

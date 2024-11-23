@@ -1,20 +1,17 @@
-import React from 'react'
+"use client"
+
 import styled from 'styled-components'
 import { Swiper, SwiperSlide } from "swiper/react"
-import { SwiperSlidesData } from "../Data"
-import "swiper/css"
-import "swiper/css/effect-cards"
-import "swiper/css/pagination"
-import "swiper/css/navigation"
-
+import { SwiperSlidesData } from "@/components/Data"
 import { EffectCards, Autoplay } from "swiper";
+import Image from 'next/image'
 
 const Container = styled.div`
   align-items: center;
   display: flex;
   height: 50vh !important;
   justify-content: center;
-  width: 60% !important;
+  width: 90% !important;
 
   @media (min-width: 768px) {
     height: 50vh !important;
@@ -58,7 +55,7 @@ const Carousel = () => {
     <Container>
       <Swiper
         autoplay={{
-          delay: 2000,
+          delay: 4000,
           disableOnInteraction: false,
         }}
         pagination = {{
@@ -75,7 +72,7 @@ const Carousel = () => {
       >
         {SwiperSlidesData.map((slide) => (
           <SwiperSlide key={slide.id}>
-            <img className='img-swiper' width="auto" height="auto" src={slide.image} alt={slide.altText} />
+            <Image className='img-swiper' width="auto" height={slide.height} src={slide.image} alt={slide.altText} />
           </SwiperSlide>
         ))}
       </Swiper>

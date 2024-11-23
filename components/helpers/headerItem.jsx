@@ -1,8 +1,9 @@
-import React from "react";
+"use client"
+
 import { Link } from "react-scroll";
 import { sora } from '@/app/fonts'
 
-const HeaderItem = ({ goTo, text, itemClass, isOpen }) => {
+const HeaderItem = ({ goTo, text, itemClass }) => {
   return (
     <>
       <Link
@@ -12,18 +13,11 @@ const HeaderItem = ({ goTo, text, itemClass, isOpen }) => {
         smooth={true}
         spy={true}
         to={goTo}
-        onClick={() => {
-          isOpen();
-        }}
       >
         {text}
       </Link>
     </>
   );
-};
-
-HeaderItem.defaultProps = {
-  isOpen: () => {},
 };
 
 export default HeaderItem;

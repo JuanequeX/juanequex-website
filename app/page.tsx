@@ -1,33 +1,28 @@
-"use client"
+"use client";
 
-import React, { useState } from 'react'
-import Navigation from '@/components/Navigation'
-import Sidebar from '@/components/helpers/Sidebar'
-// import Hero from './components/Hero'
-// import About from './components/AboutUs'
+import React, { useState } from "react";
+import Navigation from "@/components/Navigation";
+import Sidebar from "@/components/helpers/Sidebar";
+import Hero from "@/components/Hero";
+import About from "@/components/AboutUs";
 // import Roadmap from './components/Roadmap'
 // import Contact from './components/Contact'
 // import Footer  from './components/Footer'
 
-
-function App() {
+export default function App() {
   const [sidebarIsOpen, setSidebarOpen] = useState(false);
 
-  const show = () => {
-    setSidebarOpen((prevState) => !prevState);
-  };
+  const toggleSidebar = () => setSidebarOpen((prev) => !prev);
 
   return (
     <>
-      <Navigation isOpen={show}/>
-      <Sidebar toggle={sidebarIsOpen} isOpen={show} />
-      {/* <Hero /> */}
-      {/* <About />
-      <Roadmap />
+      <Navigation isOpen={toggleSidebar} />
+      <Sidebar toggle={sidebarIsOpen} isOpen={toggleSidebar} />
+      <Hero />
+      <About />
+      {/*<Roadmap />
       <Contact />
       <Footer /> */}
     </>
-  )
+  );
 }
-
-export default App

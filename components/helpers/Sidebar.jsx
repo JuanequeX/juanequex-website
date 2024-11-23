@@ -1,5 +1,7 @@
+"use client"
+
 import React, { useEffect } from "react";
-import HeaderItem from '@/components/headerItem'
+import HeaderItem from '@/components/helpers/headerItemMobile'
 import classNames from "classnames";
 
 const Sidebar = ({ toggle, isOpen }) => {

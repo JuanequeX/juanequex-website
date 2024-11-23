@@ -1,12 +1,13 @@
-import React from 'react'
+"use client"
+
 import { road_rage } from '@/app/fonts'
 
 const Logo = () => {
   return (
     <>
-      <h1 className={road_rage.className}>
+      <h2 className={road_rage.className}>
         Juanequex
-      </h1>
+      </h2>
     </>
   )
 }
