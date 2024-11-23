@@ -188,7 +188,7 @@ const RoadMapItem = ({title, period, subText, addToRef}) => {
       <ItemContainer>
         <Box>
           <Subtitle>{title}</Subtitle>
-            <p className='period'>{period}</p>
+            <span className='period'>{period}</span>
           <Text>{subText}</Text>
         </Box>
       </ItemContainer>
@@ -198,7 +198,6 @@ const RoadMapItem = ({title, period, subText, addToRef}) => {
 }
 
 const Roadmap = () => {
-
   const revealRefs = useRef([]);
   revealRefs.current = [];
   gsap.registerPlugin(ScrollTrigger);
