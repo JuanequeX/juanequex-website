@@ -1,8 +1,7 @@
 "use client"
 
-import React from 'react'
 import TypeWriterText from './helpers/TypeWriterText'
-import perfil from '@/public/assets/profile-picture.webp'
+import perfil from '@/public/assets/profile.webp'
 import Image from 'next/image'
 // import PdfDownload from './helpers/PdfDowload'
 

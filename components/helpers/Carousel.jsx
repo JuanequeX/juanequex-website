@@ -21,11 +21,10 @@ const Carousel = () => {
         {SwiperSlidesData.map((slide) => (
           <SwiperSlide key={slide.id}>
             <Image
-              className="img-swiper"
               src={slide.image}
               alt={slide.altText}
-              width={slide.image.width}
-              height={slide.image.height}
+              fill
+              style={{ objectFit: 'contain', padding: '0 1.5rem' }}
             />
           </SwiperSlide>
         ))}
