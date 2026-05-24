@@ -31,6 +31,7 @@ const Roadmap = () => {
   }
 
   useLayoutEffect(() => {
+    if (window.innerWidth <= 768) return
     const t1 = gsap.timeline()
     revealRefs.current.forEach((el, index) => {
       t1.fromTo(
