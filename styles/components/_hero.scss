@@ -89,7 +89,7 @@
   &__title {
     align-self: center;
     color: $dark-grey;
-    font-family: 'Sora';
+    font-family: $font-sora;
     font-size: $fontxl;
     text-align: center;
     width: 100%;
@@ -128,7 +128,7 @@
   }
 
   h2 {
-    font-family: 'Sora';
+    font-family: $font-sora;
     padding: 0 1.5rem;
     margin: 0 auto;
     text-align: center;
@@ -150,7 +150,7 @@
 
   div > span {
     text-transform: uppercase;
-    font-family: "Road Rage";
+    font-family: $font-road-rage;
   }
 
   .text-1 {

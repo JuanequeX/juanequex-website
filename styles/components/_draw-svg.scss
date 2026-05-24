@@ -1,0 +1,39 @@
+@keyframes draw-svg-bounce {
+  from { transform: translateX(-50%) scale(0.5); }
+  to   { transform: translateX(-50%) scale(1); }
+}
+
+.draw-svg__ball {
+  animation: draw-svg-bounce 0.5s linear infinite alternate;
+  background-color: $dark;
+  border-radius: 50%;
+  height: 1.5rem;
+  left: 50%;
+  position: absolute;
+  top: 0;
+  transform: translateX(-50%);
+  width: 1.5rem;
+
+  @media (max-width: 48em) {
+    left: 1rem;
+  }
+}
+
+.draw-svg__container {
+  height: 100%;
+  left: 50%;
+  overflow: hidden;
+  position: absolute;
+  top: 0.5rem;
+  transform: translateX(-50%);
+  width: 100%;
+
+  svg {
+    height: 100%;
+    width: 100%;
+  }
+
+  @media (max-width: 48em) {
+    left: 1rem;
+  }
+}

@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { road_rage, sora } from '@/app/fonts';
 import '@/styles/application.scss';
 
 export const metadata: Metadata = {
@@ -12,7 +13,7 @@ export default async function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className={`${road_rage.variable} ${sora.variable}`}>
       <body>
         <div id="root">{children}</div>
       </body>
