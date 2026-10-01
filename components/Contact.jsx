@@ -17,7 +17,7 @@ const Contact = () => {
             </div>
             <div className="contact__social__icons">
               <a href="https://github.com/JuanequeX" ><Image width={80} height={95} src={Github} alt="Github" className='contact__social__icon'/></a>
-              <a href="https://www.linkedin.com/in/juan-ram%C3%B3n-guzm%C3%A1n-aguilar-084a42176/" ><Image width={80} height={95} src={Linkedin} alt="Linkedin" className='contact__social__icon'/></a>
+              <a href="https://www.linkedin.com/in/juanequex" ><Image width={80} height={95} src={Linkedin} alt="Linkedin" className='contact__social__icon'/></a>
             </div>
         </div>
       </div>
